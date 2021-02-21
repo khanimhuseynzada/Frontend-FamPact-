@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Mənim ailəm</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fampact.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+				<div class="p-4 pt-5">
+		  		<h1><a href="index.html" class="logo">FamPact</a></h1>
+	        <ul class=" list-unstyled components mb-5">
+	          <li>
+            <i class="sidebar-icon fas fa-user-circle"></i>
+	              <a href="#">Mənim profilim</a>
+	          </li>
+	
+	          <li>
+            <i class="sidebar-icon fas fa-calendar-alt"></i>
+              <a href="#">Planlama</a>
+	          </li>
+	          <li>
+            <i class=" sidebar-icon fas fa-trophy"></i>
+              <a href="#">Liderlər
+              </a>
+	          </li>
+<li>
+           <i class="sidebar-icon fas fa-sign-out-alt"></i>
+           <a href="">Çıxış</a></li>
+	        </ul>
+
+
+
+	        <div class="footer">
+
+	        </div>
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+    
+  
+      <div id="content" class="p-4 p-md-5 pt-5">
+       <div class="leaderboard-header">
+       <h2>Tapşırıqlar</h2>
+    <button class="additional-button">Mənim tapşırıqlarım</button>  
+       <button class="chosen-button">Hamısı</button>
+
+       <div class="new-task" >
+       <span>Yeni tapşırıq yaratmaq</span>
+       <button class="add-new-button " type="button"  data-toggle="modal" data-target="#add-new-task-modal">+</button>
+      </div>
+      </div>
+       <table class="leaderboard table-borderless table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Ailə üzvü</th>
+            <th scope="col">Tapşırığın adı</th>
+            <th scope="col">Deadline</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sürayə</td>
+            <td>Qabları yumaq</td>
+            <td>26/02/2021</td>
+            <td><div class="status done"></div></td>
+          </tr>
+          <tr>
+            <td>Sürayə</td>
+            <td>Qabları yumaq</td>
+            <td>26/02/2021</td>
+            <td><div class="status incomplete"></div></td>
+          </tr>
+          <tr>
+            <td>Sürayə</td>
+            <td>Qabları yumaq</td>
+            <td>26/02/2021</td>
+            <td><div class="status missed"></div></td>
+          </tr>
+        </tbody>
+      </table>
+     
+      </div>
+
+
+      
+<!-- Modal -->
+<div class="modal fade" id="add-new-task-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered" role="document">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="exampleModalCenterTitle">Yeni tapşırıq</h5>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+     </div>
+     <div class="modal-body">
+      <form>
+       <div class="form-group row">
+         <label for="name" class="col-sm-2 col-form-label">Tapşırığın adı</label>
+         <div class="col-sm-10">
+           <input type="text" class="form-control" id="name" placeholder="Tapşırıq" >
+         </div>
+       </div>
+       <div class="form-group row">
+        <label for="name" class="col-sm-2 col-form-label">Məsul şəxs</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" placeholder="Şəxsin adı" >
+        </div>
+      </div>
+       <div class="form-group row">
+         <label for="" class="col-sm-2 col-form-label">Məlumat</label>
+         <div class="col-sm-10">
+          <textarea name="" id="" cols="30" rows="5"></textarea>
+         </div>
+       </div>
+
+       <div class="form-group row">
+        <label for="name" class="col-sm-2 col-form-label">Deadline</label>
+        <div class="col-sm-10">
+          <input type="datetime-local" class="form-control" id="name" >
+        </div>
+      </div>
+     </form> 
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-dismiss="modal">Ləğv et</button>
+       <button type="button" class="btn btn-primary">Yadda saxla</button>
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+

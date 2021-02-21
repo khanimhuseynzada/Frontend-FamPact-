@@ -227,9 +227,22 @@ margin: 10px;
  background-color: white;
 }
 
-tr {
- background-color: #e7e2f973; 
- border: 1px solid blue;
- border-spacing: 30em;
+.done{
+  background-color: #41AF8D;
+
 }
 
+.missed{
+  background-color: #CF2A13;
+
+}
+
+.incomplete{
+  background-color: #F2A105;
+
+}
+.status{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
